@@ -1,0 +1,16 @@
+{
+  "name": "fc-chatbot",
+  "version": "1.0.0",
+  "description": "Allows players with existing Minecraft accounts to join a server and chat via console",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js localhost 25565",
+    "start": "node index.js play.foundationcraft.com 25565"
+  },
+  "author": "TooterTutor",
+  "license": "ISC",
+  "dependencies": {
+    "mineflayer": "^4.10.0",
+    "mineflayer-dashboard": "^2.0.1"
+  }
+}
