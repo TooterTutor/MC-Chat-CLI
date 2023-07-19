@@ -10,6 +10,8 @@
   "author": "TooterTutor",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^8.2.0",
+    "console-stamp": "^3.1.1",
     "mineflayer": "^4.10.0",
     "mineflayer-dashboard": "^2.0.1"
   }
